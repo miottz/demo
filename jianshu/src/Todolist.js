@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Button, Input, List, Typography,Icon,Modal } from 'antd';
 import {getInputChangeAction,addNewListAction,deleteListAction, getToDoList } from  './store/actionCreators'
 import 'antd/dist/antd.css';
-import store from './store'
- import axios from 'axios'
+import store from './store';
+import axios from 'axios';
 
 class Todolist extends Component {
     constructor(props){
